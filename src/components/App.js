@@ -4,7 +4,7 @@ import './../styles/App.css';
 
 const App = () => {
   return (
-    <div>
+    <div className='tooltip' id='main-con'>
       {/* SGN */}
       <Tooltip text='This is a tooltip'>
         <h1>Hover over me</h1>
